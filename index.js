@@ -1,4 +1,7 @@
 // count to 5 both backwards and forwards
+const brain = require("brain.js");
+
+const network = new brain.NeuralNetwork()
 
 const trainingData = [
     [1,2,3,4,5,],
